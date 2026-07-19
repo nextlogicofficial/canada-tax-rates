@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "source": "https://freelancertax.ca (deterministic tested engine; see /how-we-verify/)",
+    "github": "https://github.com/nextlogicofficial/canada-tax-rates",
+    "figures_verified": "2026-07-05",
+    "description": "GST/HST registration thresholds and Quick Method rate grids (services + goods), platform rules, export cites — as encoded in the tested engine",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Attribution required: link to https://freelancertax.ca"
+    },
+    "disclaimer": "Estimates only, for planning purposes — not tax, legal, or accounting advice. Figures follow CRA-published 2026 rates; your actual return may differ. Confirm with the CRA or a qualified professional before filing."
+  },
+  "data": {
+    "smallSupplierThreshold": 30000,
+    "quickMethodCeiling": 400000,
+    "quickMethodCredit": {
+      "rate": 0.01,
+      "cap": 30000
+    },
+    "registrationDays": 29,
+    "salesTaxRate": {
+      "ON": 0.13,
+      "NB": 0.15,
+      "NL": 0.15,
+      "PE": 0.15,
+      "NS": 0.14,
+      "QC": 0.05,
+      "BC": 0.05,
+      "AB": 0.05,
+      "MB": 0.05,
+      "SK": 0.05,
+      "YT": 0.05,
+      "NT": 0.05,
+      "NU": 0.05
+    },
+    "peColumn": {
+      "ON": 2,
+      "NS": 3,
+      "NB": 4,
+      "NL": 4,
+      "PE": 4,
+      "QC": 1,
+      "BC": 1,
+      "AB": 1,
+      "MB": 1,
+      "SK": 1,
+      "YT": 1,
+      "NT": 1,
+      "NU": 1
+    }
+  },
+  "quick_method_services": {
+    "5": {
+      "1": 0.036,
+      "2": 0.018,
+      "3": 0.016,
+      "4": 0.014
+    },
+    "13": {
+      "1": 0.105,
+      "2": 0.088,
+      "3": 0.086,
+      "4": 0.084
+    },
+    "14": {
+      "1": 0.113,
+      "2": 0.096,
+      "3": 0.094,
+      "4": 0.092
+    },
+    "15": {
+      "1": 0.12,
+      "2": 0.104,
+      "3": 0.102,
+      "4": 0.1
+    }
+  },
+  "quick_method_goods": {
+    "5": {
+      "1": 0.018,
+      "2": -0.028,
+      "3": -0.034,
+      "4": -0.04
+    },
+    "13": {
+      "1": 0.088,
+      "2": 0.044,
+      "3": 0.039,
+      "4": 0.033
+    },
+    "14": {
+      "1": 0.096,
+      "2": 0.053,
+      "3": 0.047,
+      "4": 0.042
+    },
+    "15": {
+      "1": 0.104,
+      "2": 0.061,
+      "3": 0.056,
+      "4": 0.05
+    }
+  },
+  "quick_method_excluded": [
+    "bookkeeping",
+    "financial consulting",
+    "tax consulting",
+    "tax return preparation",
+    "legal services",
+    "accounting services",
+    "actuarial services",
+    "charity",
+    "listed financial institution",
+    "public institution"
+  ],
+  "platform": {
+    "goodsMaxSales": 30,
+    "goodsMaxTotal": 2800,
+    "reportDeadline": "January 31"
+  },
+  "export_cites": {
+    "impexp": "CRA: GST/HST on imports and exports (modified 2026-03-23)",
+    "memo453": "GST/HST Memorandum 4-5-3, December 2023 edition",
+    "memo33": "GST/HST Memorandum 3-3, Place of Supply (ETA s.142)",
+    "s148": "ETA s.148(1)(a) — supplies made inside or outside Canada"
+  }
+}

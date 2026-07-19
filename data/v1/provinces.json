@@ -1,0 +1,412 @@
+{
+  "_meta": {
+    "source": "https://freelancertax.ca (deterministic tested engine; see /how-we-verify/)",
+    "github": "https://github.com/nextlogicofficial/canada-tax-rates",
+    "figures_verified": "2026-07-02",
+    "description": "Provincial brackets + BPA, 2025 and 2026: BC AB MB SK NS NB, plus Québec (QPP/QPIP/abatement) — as encoded in the tested engine",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Attribution required: link to https://freelancertax.ca"
+    },
+    "disclaimer": "Estimates only, for planning purposes — not tax, legal, or accounting advice. Figures follow CRA-published 2026 rates; your actual return may differ. Confirm with the CRA or a qualified professional before filing."
+  },
+  "supported": [
+    "ON",
+    "BC",
+    "AB",
+    "MB",
+    "SK",
+    "NS",
+    "NB",
+    "QC"
+  ],
+  "data": {
+    "2025": {
+      "BC": {
+        "brackets": [
+          [
+            0,
+            0.0506
+          ],
+          [
+            49279,
+            0.077
+          ],
+          [
+            98560,
+            0.105
+          ],
+          [
+            113158,
+            0.1229
+          ],
+          [
+            137407,
+            0.147
+          ],
+          [
+            186306,
+            0.168
+          ],
+          [
+            259829,
+            0.205
+          ]
+        ],
+        "bpa": 12932,
+        "creditRate": 0.0506
+      },
+      "AB": {
+        "brackets": [
+          [
+            0,
+            0.08
+          ],
+          [
+            60000,
+            0.1
+          ],
+          [
+            151234,
+            0.12
+          ],
+          [
+            181481,
+            0.13
+          ],
+          [
+            241974,
+            0.14
+          ],
+          [
+            362961,
+            0.15
+          ]
+        ],
+        "bpa": 22323,
+        "creditRate": 0.08
+      },
+      "MB": {
+        "brackets": [
+          [
+            0,
+            0.108
+          ],
+          [
+            47000,
+            0.1275
+          ],
+          [
+            100000,
+            0.174
+          ]
+        ],
+        "bpa": 15780,
+        "creditRate": 0.108,
+        "bpaPhaseOut": {
+          "start": 200000,
+          "end": 400000
+        }
+      },
+      "SK": {
+        "brackets": [
+          [
+            0,
+            0.105
+          ],
+          [
+            53463,
+            0.125
+          ],
+          [
+            152750,
+            0.145
+          ]
+        ],
+        "bpa": 19491,
+        "creditRate": 0.105
+      },
+      "NS": {
+        "brackets": [
+          [
+            0,
+            0.0879
+          ],
+          [
+            30507,
+            0.1495
+          ],
+          [
+            61015,
+            0.1667
+          ],
+          [
+            95883,
+            0.175
+          ],
+          [
+            154650,
+            0.21
+          ]
+        ],
+        "bpa": 11744,
+        "creditRate": 0.0879
+      },
+      "NB": {
+        "brackets": [
+          [
+            0,
+            0.094
+          ],
+          [
+            51306,
+            0.14
+          ],
+          [
+            102614,
+            0.16
+          ],
+          [
+            190060,
+            0.195
+          ]
+        ],
+        "bpa": 13396,
+        "creditRate": 0.094
+      },
+      "QC": {
+        "brackets": [
+          [
+            0,
+            0.14
+          ],
+          [
+            53255,
+            0.19
+          ],
+          [
+            106495,
+            0.24
+          ],
+          [
+            129590,
+            0.2575
+          ]
+        ],
+        "bpa": 18571,
+        "creditRate": 0.14
+      }
+    },
+    "2026": {
+      "BC": {
+        "brackets": [
+          [
+            0,
+            0.056
+          ],
+          [
+            50363,
+            0.077
+          ],
+          [
+            100728,
+            0.105
+          ],
+          [
+            115648,
+            0.1229
+          ],
+          [
+            140430,
+            0.147
+          ],
+          [
+            190405,
+            0.168
+          ],
+          [
+            265545,
+            0.205
+          ]
+        ],
+        "bpa": 13216,
+        "creditRate": 0.056
+      },
+      "AB": {
+        "brackets": [
+          [
+            0,
+            0.08
+          ],
+          [
+            61200,
+            0.1
+          ],
+          [
+            154259,
+            0.12
+          ],
+          [
+            185111,
+            0.13
+          ],
+          [
+            246813,
+            0.14
+          ],
+          [
+            370220,
+            0.15
+          ]
+        ],
+        "bpa": 22769,
+        "creditRate": 0.08
+      },
+      "MB": {
+        "brackets": [
+          [
+            0,
+            0.108
+          ],
+          [
+            47000,
+            0.1275
+          ],
+          [
+            100000,
+            0.174
+          ]
+        ],
+        "bpa": 15780,
+        "creditRate": 0.108,
+        "bpaPhaseOut": {
+          "start": 200000,
+          "end": 400000
+        }
+      },
+      "SK": {
+        "brackets": [
+          [
+            0,
+            0.105
+          ],
+          [
+            54532,
+            0.125
+          ],
+          [
+            155805,
+            0.145
+          ]
+        ],
+        "bpa": 20381,
+        "creditRate": 0.105
+      },
+      "NS": {
+        "brackets": [
+          [
+            0,
+            0.0879
+          ],
+          [
+            30995,
+            0.1495
+          ],
+          [
+            61991,
+            0.1667
+          ],
+          [
+            97417,
+            0.175
+          ],
+          [
+            157124,
+            0.21
+          ]
+        ],
+        "bpa": 11932,
+        "creditRate": 0.0879
+      },
+      "NB": {
+        "brackets": [
+          [
+            0,
+            0.094
+          ],
+          [
+            52333,
+            0.14
+          ],
+          [
+            104666,
+            0.16
+          ],
+          [
+            193861,
+            0.195
+          ]
+        ],
+        "bpa": 13664,
+        "creditRate": 0.094
+      },
+      "QC": {
+        "brackets": [
+          [
+            0,
+            0.14
+          ],
+          [
+            54345,
+            0.19
+          ],
+          [
+            108680,
+            0.24
+          ],
+          [
+            132245,
+            0.2575
+          ]
+        ],
+        "bpa": 18952,
+        "creditRate": 0.14
+      }
+    }
+  },
+  "quebec": {
+    "2025": {
+      "qpp": {
+        "ympe": 71300,
+        "yampe": 81200,
+        "exemption": 3500,
+        "baseRateSE": 0.108,
+        "enhRateSE": 0.02,
+        "qpp2RateSE": 0.08
+      },
+      "qpip": {
+        "mie": 98000,
+        "seRate": 0.00878,
+        "employeeShare": 0.00494
+      }
+    },
+    "2026": {
+      "qpp": {
+        "ympe": 74600,
+        "yampe": 85000,
+        "exemption": 3500,
+        "baseRateSE": 0.106,
+        "enhRateSE": 0.02,
+        "qpp2RateSE": 0.08
+      },
+      "qpip": {
+        "mie": 103000,
+        "seRate": 0.00764,
+        "employeeShare": 0.0043
+      }
+    },
+    "abatement": 0.165,
+    "qpipMinIncome": 2000
+  }
+}

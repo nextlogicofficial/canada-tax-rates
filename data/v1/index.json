@@ -1,0 +1,47 @@
+{
+  "name": "canada-tax-rates",
+  "title": "Canadian freelancer tax rates & thresholds (verified open dataset)",
+  "version": "1.0.0",
+  "generated": "2026-07-19",
+  "publisher": "https://freelancertax.ca",
+  "verification": "https://freelancertax.ca/how-we-verify/",
+  "github": "https://github.com/nextlogicofficial/canada-tax-rates",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Attribution required: link to https://freelancertax.ca"
+  },
+  "disclaimer": "Estimates only, for planning purposes — not tax, legal, or accounting advice. Figures follow CRA-published 2026 rates; your actual return may differ. Confirm with the CRA or a qualified professional before filing.",
+  "files": [
+    {
+      "file": "/data/v1/federal-ontario-2025.json",
+      "figures_verified": "2026-07-02",
+      "description": "Canada 2025: federal + Ontario brackets/BPA/surtax/health premium, CPP incl. CPP2, GST/HST core figures — as encoded in the tested engine"
+    },
+    {
+      "file": "/data/v1/federal-ontario-2026.json",
+      "figures_verified": "2026-07-01",
+      "description": "Canada 2026: federal + Ontario brackets/BPA/surtax/health premium, CPP incl. CPP2, GST/HST core figures — as encoded in the tested engine"
+    },
+    {
+      "file": "/data/v1/provinces.json",
+      "figures_verified": "2026-07-02",
+      "description": "Provincial brackets + BPA, 2025 and 2026: BC AB MB SK NS NB, plus Québec (QPP/QPIP/abatement) — as encoded in the tested engine"
+    },
+    {
+      "file": "/data/v1/gst-hst.json",
+      "figures_verified": "2026-07-05",
+      "description": "GST/HST registration thresholds and Quick Method rate grids (services + goods), platform rules, export cites — as encoded in the tested engine"
+    },
+    {
+      "file": "/data/v1/instalments.json",
+      "figures_verified": "2026-07-04",
+      "description": "CRA tax instalment thresholds and due dates — as encoded in the tested engine"
+    },
+    {
+      "file": "/data/v1/deadlines.json",
+      "figures_verified": "2026-07-17",
+      "description": "Canadian tax deadlines (statutory dates; apply next-business-day rule) — as encoded in the tested engine"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "source": "https://freelancertax.ca (deterministic tested engine; see /how-we-verify/)",
+    "github": "https://github.com/nextlogicofficial/canada-tax-rates",
+    "figures_verified": "2026-07-04",
+    "description": "CRA tax instalment thresholds and due dates — as encoded in the tested engine",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Attribution required: link to https://freelancertax.ca"
+    },
+    "disclaimer": "Estimates only, for planning purposes — not tax, legal, or accounting advice. Figures follow CRA-published 2026 rates; your actual return may differ. Confirm with the CRA or a qualified professional before filing."
+  },
+  "data": {
+    "thresholdDefault": 3000,
+    "thresholdQC": 1800,
+    "dueDates": [
+      "March 15",
+      "June 15",
+      "September 15",
+      "December 15"
+    ]
+  }
+}

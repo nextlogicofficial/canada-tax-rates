@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "source": "https://freelancertax.ca (deterministic tested engine; see /how-we-verify/)",
+    "github": "https://github.com/nextlogicofficial/canada-tax-rates",
+    "figures_verified": "2026-07-17",
+    "description": "Canadian tax deadlines (statutory dates; apply next-business-day rule) — as encoded in the tested engine",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Attribution required: link to https://freelancertax.ca"
+    },
+    "disclaimer": "Estimates only, for planning purposes — not tax, legal, or accounting advice. Figures follow CRA-published 2026 rates; your actual return may differ. Confirm with the CRA or a qualified professional before filing."
+  },
+  "sources": [
+    "https://www.canada.ca/en/services/taxes/resources-for-small-and-medium-businesses/2026-tax-deadlines-canadian-businesses-self-employed-individuals.html",
+    "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/important-dates-rrsp-rrif-rdsp.html",
+    "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/due-dates.html"
+  ],
+  "data": [
+    {
+      "id": "rrsp-2025",
+      "statutoryDate": "2026-03-02",
+      "title": "RRSP contribution deadline (2025 tax year)",
+      "desc": "Last day to contribute to an RRSP and deduct it on your 2025 return. CRA-published date.",
+      "audience": "everyone",
+      "tool": "https://freelancertax.ca/self-employed-tax-calculator/",
+      "source": "B",
+      "remind": false,
+      "prep": true,
+      "prepDesc": "Decide your 2025 RRSP contribution and start any transfers now — contributions must land in the account by the deadline, and moving money between institutions can take days."
+    },
+    {
+      "id": "inst-2026-q1",
+      "statutoryDate": "2026-03-15",
+      "title": "CRA tax instalment #1 of 2026",
+      "desc": "First 2026 quarterly instalment for those required to pay. Compute your exact amount: https://freelancertax.ca/tax-instalments-canada/",
+      "audience": "instalment-payers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "A",
+      "remind": true
+    },
+    {
+      "id": "payment-2025",
+      "statutoryDate": "2026-04-30",
+      "title": "2025 balance owing due (all filers, incl. self-employed)",
+      "desc": "Pay any 2025 income tax balance today even if your self-employed return isn't due until June 15 — interest starts after this date. Estimate what you owe: https://freelancertax.ca/self-employed-tax-calculator/",
+      "audience": "everyone",
+      "tool": "https://freelancertax.ca/self-employed-tax-calculator/",
+      "source": "A",
+      "remind": true,
+      "prep": true,
+      "prepDesc": "Estimate your 2025 balance owing now and set the cash aside — interest starts the day after the deadline. Free estimate: https://freelancertax.ca/self-employed-tax-calculator/"
+    },
+    {
+      "id": "gsthst-payment-2025",
+      "statutoryDate": "2026-04-30",
+      "title": "GST/HST payment due (annual filers, Dec 31 year-end)",
+      "desc": "Self-employed annual GST/HST filers with a December 31 fiscal year-end: payment is due today; the return itself is due June 15.",
+      "audience": "gst-registrants",
+      "tool": "https://freelancertax.ca/expense-categorizer/",
+      "source": "A",
+      "remind": false
+    },
+    {
+      "id": "filing-se-2025",
+      "statutoryDate": "2026-06-15",
+      "title": "Self-employed filing deadline (2025 return)",
+      "desc": "File your 2025 income tax return (you or your spouse/common-law partner self-employed). Any balance was due April 30. Fill out your T2125: https://freelancertax.ca/t2125-generator/",
+      "audience": "everyone",
+      "tool": "https://freelancertax.ca/t2125-generator/",
+      "source": "A",
+      "remind": true,
+      "prep": true,
+      "prepDesc": "Gather your invoices, expense receipts and bank statements now — a complete T2125 takes longer than one evening. Fill it out free: https://freelancertax.ca/t2125-generator/"
+    },
+    {
+      "id": "inst-2026-q2",
+      "statutoryDate": "2026-06-15",
+      "title": "CRA tax instalment #2 of 2026",
+      "desc": "Second 2026 quarterly instalment. Compute your exact amount: https://freelancertax.ca/tax-instalments-canada/",
+      "audience": "instalment-payers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "A",
+      "remind": false
+    },
+    {
+      "id": "gsthst-filing-2025",
+      "statutoryDate": "2026-06-15",
+      "title": "GST/HST return due (annual filers, Dec 31 year-end)",
+      "desc": "Self-employed annual GST/HST filers: file your return today (payment was due April 30).",
+      "audience": "gst-registrants",
+      "tool": "https://freelancertax.ca/expense-categorizer/",
+      "source": "A",
+      "remind": false
+    },
+    {
+      "id": "inst-2026-q3",
+      "statutoryDate": "2026-09-15",
+      "title": "CRA tax instalment #3 of 2026",
+      "desc": "Third 2026 quarterly instalment. Compute your exact amount and compare the three CRA payment options: https://freelancertax.ca/tax-instalments-canada/",
+      "audience": "instalment-payers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "A",
+      "remind": true
+    },
+    {
+      "id": "inst-2026-q4",
+      "statutoryDate": "2026-12-15",
+      "title": "CRA tax instalment #4 of 2026",
+      "desc": "Final 2026 quarterly instalment. Compute your exact amount: https://freelancertax.ca/tax-instalments-canada/",
+      "audience": "instalment-payers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "A",
+      "remind": true
+    },
+    {
+      "id": "inst-ff-2026",
+      "statutoryDate": "2026-12-31",
+      "title": "Farmers & fishers: single 2026 instalment due",
+      "desc": "If your main income is farming or fishing, your one annual instalment is due today.",
+      "audience": "farmers-fishers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "C",
+      "remind": false
+    },
+    {
+      "id": "t4-2026",
+      "statutoryDate": "2027-02-28",
+      "title": "T4/T4A slips due for 2026 (if you have employees)",
+      "desc": "File T4/T4A information returns for the 2026 calendar year — due the last day of February.",
+      "audience": "employers",
+      "tool": "https://freelancertax.ca/",
+      "source": "A",
+      "remind": false
+    },
+    {
+      "id": "inst-2027-q1",
+      "statutoryDate": "2027-03-15",
+      "title": "CRA tax instalment #1 of 2027",
+      "desc": "First 2027 quarterly instalment (statutory date — CRA reminders confirm your amounts). Compute: https://freelancertax.ca/tax-instalments-canada/",
+      "audience": "instalment-payers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "C",
+      "remind": true
+    },
+    {
+      "id": "payment-2026",
+      "statutoryDate": "2027-04-30",
+      "title": "2026 balance owing due (all filers, incl. self-employed)",
+      "desc": "Pay any 2026 income tax balance today — interest starts after this date even though the self-employed filing deadline is June 15. Estimate: https://freelancertax.ca/self-employed-tax-calculator/",
+      "audience": "everyone",
+      "tool": "https://freelancertax.ca/self-employed-tax-calculator/",
+      "source": "A",
+      "remind": true,
+      "prep": true,
+      "prepDesc": "Estimate your 2026 balance owing now and set the cash aside — interest starts the day after the deadline. Free estimate: https://freelancertax.ca/self-employed-tax-calculator/"
+    },
+    {
+      "id": "filing-se-2026",
+      "statutoryDate": "2027-06-15",
+      "title": "Self-employed filing deadline (2026 return)",
+      "desc": "File your 2026 income tax return. Any balance was due April 30. Fill out your T2125: https://freelancertax.ca/t2125-generator/",
+      "audience": "everyone",
+      "tool": "https://freelancertax.ca/t2125-generator/",
+      "source": "A",
+      "remind": true,
+      "prep": true,
+      "prepDesc": "Gather your invoices, expense receipts and bank statements now — a complete T2125 takes longer than one evening. Fill it out free: https://freelancertax.ca/t2125-generator/"
+    },
+    {
+      "id": "inst-2027-q2",
+      "statutoryDate": "2027-06-15",
+      "title": "CRA tax instalment #2 of 2027",
+      "desc": "Second 2027 quarterly instalment. Compute your exact amount: https://freelancertax.ca/tax-instalments-canada/",
+      "audience": "instalment-payers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "C",
+      "remind": false
+    },
+    {
+      "id": "inst-2027-q3",
+      "statutoryDate": "2027-09-15",
+      "title": "CRA tax instalment #3 of 2027",
+      "desc": "Third 2027 quarterly instalment. Compute your exact amount and compare the three CRA payment options: https://freelancertax.ca/tax-instalments-canada/",
+      "audience": "instalment-payers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "D",
+      "remind": true
+    },
+    {
+      "id": "inst-2027-q4",
+      "statutoryDate": "2027-12-15",
+      "title": "CRA tax instalment #4 of 2027",
+      "desc": "Final 2027 quarterly instalment. Compute your exact amount: https://freelancertax.ca/tax-instalments-canada/",
+      "audience": "instalment-payers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "D",
+      "remind": true
+    },
+    {
+      "id": "inst-ff-2027",
+      "statutoryDate": "2027-12-31",
+      "title": "Farmers & fishers: single 2027 instalment due",
+      "desc": "If your main income is farming or fishing, your one annual instalment is due today.",
+      "audience": "farmers-fishers",
+      "tool": "https://freelancertax.ca/tax-instalments-canada/",
+      "source": "D",
+      "remind": false
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "_meta": {
+    "source": "https://freelancertax.ca (deterministic tested engine; see /how-we-verify/)",
+    "github": "https://github.com/nextlogicofficial/canada-tax-rates",
+    "figures_verified": "2026-07-01",
+    "description": "Canada 2026: federal + Ontario brackets/BPA/surtax/health premium, CPP incl. CPP2, GST/HST core figures — as encoded in the tested engine",
+    "license": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Attribution required: link to https://freelancertax.ca"
+    },
+    "disclaimer": "Estimates only, for planning purposes — not tax, legal, or accounting advice. Figures follow CRA-published 2026 rates; your actual return may differ. Confirm with the CRA or a qualified professional before filing."
+  },
+  "data": {
+    "year": 2026,
+    "federal": {
+      "brackets": [
+        [
+          0,
+          0.14
+        ],
+        [
+          58523,
+          0.205
+        ],
+        [
+          117045,
+          0.26
+        ],
+        [
+          181440,
+          0.29
+        ],
+        [
+          258482,
+          0.33
+        ]
+      ],
+      "bpaMax": 16452,
+      "bpaMin": 14829,
+      "bpaPhaseStart": 181440,
+      "bpaPhaseEnd": 258482,
+      "creditRate": 0.14
+    },
+    "ontario": {
+      "brackets": [
+        [
+          0,
+          0.0505
+        ],
+        [
+          53891,
+          0.0915
+        ],
+        [
+          107785,
+          0.1116
+        ],
+        [
+          150000,
+          0.1216
+        ],
+        [
+          220000,
+          0.1316
+        ]
+      ],
+      "bpa": 12989,
+      "creditRate": 0.0505,
+      "surtax": [
+        {
+          "over": 5818,
+          "rate": 0.2
+        },
+        {
+          "over": 7446,
+          "rate": 0.36
+        }
+      ],
+      "healthPremium": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          20000,
+          0,
+          0.06,
+          300
+        ],
+        [
+          25000,
+          300,
+          0,
+          300
+        ],
+        [
+          36000,
+          300,
+          0.06,
+          450
+        ],
+        [
+          38500,
+          450,
+          0,
+          450
+        ],
+        [
+          48000,
+          450,
+          0.25,
+          600
+        ],
+        [
+          48600,
+          600,
+          0,
+          600
+        ],
+        [
+          72000,
+          600,
+          0.25,
+          750
+        ],
+        [
+          72600,
+          750,
+          0,
+          750
+        ],
+        [
+          200000,
+          750,
+          0.25,
+          900
+        ],
+        [
+          200600,
+          900,
+          0,
+          900
+        ]
+      ]
+    },
+    "cpp": {
+      "ympe": 74600,
+      "yampe": 85000,
+      "exemption": 3500,
+      "baseRateSE": 0.099,
+      "enhRateSE": 0.02,
+      "cpp2RateSE": 0.08,
+      "maxBaseSE": 8460.9,
+      "maxCpp2SE": 832
+    },
+    "gstHst": {
+      "smallSupplierThreshold": 30000,
+      "rates": {
+        "AB": 5,
+        "BC": 5,
+        "MB": 5,
+        "NB": 15,
+        "NL": 15,
+        "NS": 14,
+        "NT": 5,
+        "NU": 5,
+        "ON": 13,
+        "PE": 15,
+        "QC": 5,
+        "SK": 5,
+        "YT": 5
+      }
+    }
+  }
+}
